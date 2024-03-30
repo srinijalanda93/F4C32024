@@ -14,4 +14,4 @@ step 8: go to the package.json add this in script
     "start": "react-scripts start",
     "build": "react-scripts build",  }
 
-step 9: last step "npm run deploy"
+step 9: last step "npm run deploy"....
