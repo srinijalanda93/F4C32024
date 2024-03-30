@@ -1,0 +1,49 @@
+.card {
+  width: 450px;
+  height: 450px;
+}
+img {
+  width: 100%;
+}
+.btn-para-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.btn-para-wrapper div {
+  width: 60px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: #f2672c;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+.btn-para-wrapper {
+  color: grey;
+}
+.title {
+  padding: 10px 0;
+}
+.data-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  justify-items: center;
+  gap: 20px;
+}
+.btn-para-wrapper p a {
+  color: #f2672c;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .card {
+    width: 300px;
+  }
+}
