@@ -1,0 +1,17 @@
+youtube Video: https://www.youtube.com/watch?v=Fi75tq9JikI
+
+step1:create the folder in github and clone get it.
+step 2: after cloning create-react-app in cmd [npx create-react-app "prjname"];
+step 3: go to https://create-react-app.dev/docs/deployment/#github-pages
+step 4:npm run build --->makes the folder static
+step 5:go to package.json at top paste this  "homepage": "https://myusername.github.io/my-app"
+step 6:myusername is srinijalanda93 my-app is ur foldername:
+step 7: run this "npm install --save gh-pages"
+step 8: go to the package.json add this in script 
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",  }
+
+step 9: last step "npm run deploy"
